@@ -1,0 +1,41 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+.raleway-uniquifier {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+/* Nav section styles */
+.nav-header{
+    max-width: 1240px;
+    margin: 10px 200px;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-logo{
+    color: rgb(84, 7, 47);
+    font-size: 30px;
+    font-weight: 900;
+}
+.nav-btn{
+    background-color: rgb(84, 7, 47);
+    border: none;
+    border-radius: 5px;
+    width: 70px;
+    height: 30px;
+    color: #FFFFFF;
+    font-family:'Trebuchet MS';
+    font-weight: bold;
+    
+}
+.nav-btn:hover{
+    box-shadow: 1px 6px 10px rgb(84, 7, 47);
+    transition: 0.4s ease-in-out;
+}

@@ -39,3 +39,23 @@ padding: 0;
     box-shadow: 1px 6px 10px rgb(84, 7, 47);
     transition: 0.4s ease-in-out;
 }
+/* headline section styles */
+.Headline{
+    max-width: 1240px;
+    margin: 70px 200px;
+}
+.headline-container{
+    text-align: center;
+    
+}
+.Headline-main-heading{
+    font-size: 90px;
+    font-weight: 900;
+  margin-bottom: 30px;
+}
+.headlline-btn{
+    width: 150px;
+    height: 40px;
+}
+
+

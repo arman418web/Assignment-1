@@ -2,13 +2,20 @@
 margin: 0;
 padding: 0;
 }
+/* Header */
+header{
+    background-image: url("..//Style/Assets/Hero-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
 
+}
 .raleway-uniquifier {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
 }
+
 /* Nav section styles */
 .nav-header{
     max-width: 1240px;
@@ -39,23 +46,61 @@ padding: 0;
     box-shadow: 1px 6px 10px rgb(84, 7, 47);
     transition: 0.4s ease-in-out;
 }
-/* headline section styles */
-.Headline{
+/* Template section styles */
+.Template{
     max-width: 1240px;
     margin: 70px 200px;
 }
-.headline-container{
+.Template-container{
     text-align: center;
     
 }
-.Headline-main-heading{
+.Template-main-heading{
     font-size: 90px;
     font-weight: 900;
   margin-bottom: 30px;
 }
-.headlline-btn{
+.Template-btn{
     width: 150px;
     height: 40px;
+    margin-bottom: 10px;
 }
+/* Banner  section header */
+.Banner-header{
+     max-width: 1240px;
+    margin: 70px 200px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
 
+}
+.Banner-headline{
+    color: #252432;
+    margin-bottom: 10px;
+
+
+
+}
+.Banner-headline{
+    color: #252432;
+   
+}
+.Banner-btn{
+    width: 150px;
+    height: 30px;
+    margin-top: 10px;
+
+}
+.Banner-img{
+    border-radius: 20px;
+    
+
+}
+.Banner-img:hover{
+    box-shadow: 2px 5px 30px  black;
+}
+.Banner-description{
+    color: #252432;
+}
 

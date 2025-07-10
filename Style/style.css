@@ -79,7 +79,7 @@ header{
     height: 40px;
     margin-bottom: 10px;
 }
-/* Banner  section header */
+/* Banner  section header styles */
 .Banner-header{
      max-width: 1240px;
     margin: 70px 200px;
@@ -117,7 +117,7 @@ header{
 .Banner-description{
     color: #252432;
 }
-/* User section */
+/* User section styles */
 .user-sec-Header{
        max-width: 1240px;
     margin: 90px 200px;
@@ -155,4 +155,32 @@ font-weight: bold;
 text-shadow: 1px 1px 3px;
 color: #FFFFFF;
 margin-top: 50px ;
+}
+/* user container styles */
+.user-cmp-container{
+       max-width: 1240px;
+    margin: 90px 200px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.user-cmp-fotter{
+ display: flex;
+ align-items: center;
+ gap: 5px;
+}
+.user-cmp-heading{
+text-align: center;
+}
+.user-cmp-description{
+    box-shadow: 2px 5px 40px gray;
+    padding: 10px;
+    background-color: #FFFFFF;
+}
+.user-cmp-heading{
+    
+    color: rgb(84, 7, 47);
+    text-shadow: 3px 6px 10px rgb(2, 0, 0) ;
+    font-size: 30px;
+  
 }

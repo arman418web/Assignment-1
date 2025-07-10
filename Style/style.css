@@ -36,7 +36,7 @@ header{
     font-size: 30px;
     font-weight: 900;
      margin-top: 30px;
-     text-shadow: 3px 3px 5px rgb(24, 1, 1);
+     text-shadow: 2px 2px 3px rgb(24, 1, 1);
     
 }
 .nav-logo-clr-effect{
@@ -112,7 +112,7 @@ header{
 
 }
 .Banner-img:hover{
-    box-shadow: 2px 5px 30px  black;
+    box-shadow: 2px 5px 10px  black;
 }
 .Banner-description{
     color: #252432;
@@ -158,34 +158,75 @@ color: #FFFFFF;
 font-weight: bold;
 text-shadow: 1px 1px 3px;
 color: #FFFFFF;
-margin-top: 50px ;
+margin-top: 30px ;
 }
 /* user container styles */
 .user-cmp-container{
        max-width: 1240px;
-    margin: 90px 200px;
+    margin: 50px 200px;
     display: flex;
     align-items: center;
     gap: 20px;
+}
+
+.user-cmp-heading{
+text-align: center;
+color: rgb(84, 7, 47);
+    text-shadow: 1px 2px 2px rgb(2, 0, 0) ;
+    font-size: 30px;
+  
+}
+.user-cmp-description{
+    box-shadow: 2px 5px 20px gray;
+    padding: 20px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
 }
 .user-cmp-fotter{
  display: flex;
  align-items: center;
  gap: 5px;
 }
-.user-cmp-heading{
-text-align: center;
+/* improvement section styles*/
+.Imv-header{
+    background-color: white;
+     max-width: 1240px;
+     margin: 10px 200px;
 }
-.user-cmp-description{
-    box-shadow: 2px 5px 40px gray;
+.improvement-Container{
+      /* max-width: 1240px; */
+    margin: 0px 200px;
+    justify-content: center;
     padding: 10px;
-    background-color: #FFFFFF;
-    border-radius: 10px;
-}
-.user-cmp-heading{
     
+
+   
+}
+.imv-heading{
+    margin-top: 10px;
+    text-align: center;
     color: rgb(84, 7, 47);
-    text-shadow: 3px 6px 10px rgb(2, 0, 0) ;
-    font-size: 30px;
-  
+    text-shadow: 1px 2px 2px rgb(2, 0, 0) ;
+}
+.imv-description{
+      text-align: center;
+     /* margin: 10px 200px; */
+      font-weight: bold;
+}
+
+
+
+.imv-btn{
+ margin: 10px 200px;
+ width: 170px;
+margin-left: 310px;
+ height: 40px;
+
+}
+.imv-banner{
+border-radius: 20px;
+margin-top: 10px;
+justify-content: space-around;
+background-size: cover;
+margin-right: 10px !important;
 }

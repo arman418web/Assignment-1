@@ -188,21 +188,22 @@ color: rgb(84, 7, 47);
  gap: 5px;
 }
 /* improvement section styles*/
-.Imv-header{
+/* .Imv-header{
     background-color: white;
      max-width: 1240px;
-     margin: 10px 200px;
+     margin: 10px 100px;
+     border-radius: 10px;
 }
 .improvement-Container{
       /* max-width: 1240px; */
-    margin: 0px 200px;
+    /* margin: 0px 100px;
     justify-content: center;
-    padding: 10px;
+    padding: 10px; */
     
 
    
 }
-.imv-heading{
+/* .imv-heading{
     margin-top: 10px;
     text-align: center;
     color: rgb(84, 7, 47);
@@ -216,17 +217,69 @@ color: rgb(84, 7, 47);
 
 
 
-.imv-btn{
- margin: 10px 200px;
- width: 170px;
-margin-left: 310px;
- height: 40px;
+/* .imv-btn{
+ /* margin: 10px 200px; */
+ /* width: 170px;
 
-}
-.imv-banner{
+ height: 40px; 
+ margin-left: 310px;
+  */
+
+} */
+/* .imv-banner{
 border-radius: 20px;
-margin-top: 10px;
-justify-content: space-around;
-background-size: cover;
-margin-right: 10px !important;
+margin-top: 10px; */ */
+/* justify-content: space-around; */
+/* background-size: cover;
+margin-right: 10px !important; */
+} */
+/* form section style */
+
+     
+
+.form-header{
+    max-width: 1240px;
+   
+    
+     
+   
 }
+ .form-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+
+ }
+ .form-description{
+    margin: 0 200px;
+    font-size: 50px;
+    color: rgb(84, 7, 47);
+     text-shadow: 1px 2px 2px rgb(2, 0, 0) ;
+ }
+ .from-box{
+     margin: 0 200px;
+ }
+ .form-massage{
+    width: 250px;
+    height: 100px;
+    padding: 5px;
+     box-shadow: 2px 2px 3px gray;
+    
+       margin: 5px 0;
+ }
+ .form-title{
+    width: 250px;
+    height: 25px;
+     box-shadow: 2px 2px 3px gray;
+     
+  margin: 5px 0;
+    
+ }
+ label{
+    color: rgb(84, 7, 47);
+    font-weight: bold;
+    margin: 5px 0;
+    
+ }
